@@ -5,7 +5,7 @@ import Logo from '../public/dsf-logo.svg'
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center bg-navy px-14">
+    <main className="flex h-fit flex-col items-center bg-navy px-14">
       {/* <div className='bg-lightgreen h-40 w-full'>
       </div> */}
       <section className='flex flex-col  items-center mt-10 lg:mt-16 pt-12 w-full md:w-1/2'>
