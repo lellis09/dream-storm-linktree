@@ -2,4 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.shadow-custom-teal{
+    box-shadow: 0 0 .2rem #C9F8F6,
+    0 0 .2rem #fff,
+    0 0 1.5rem #00C4D4,
+    inset 0 0 1.3rem #00C4D4;
+}
 
+.shadow-custom-purple{
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 1.5rem #4F56F6,
+    inset 0 0 1.3rem #4F56F6;
+}
+
+.shadow-custom-pink{
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 1.5rem #F11AA8,
+    inset 0 0 1.3rem #F11AA8;
+}
+
+.shadow-custom-lime{
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 1.5rem #a2f740,
+    inset 0 0 1.3rem #a2f740;
+}
+
+.tealish{
+    color: #00C4D4;
+}
